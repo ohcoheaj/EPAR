@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>EPAR: Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection</h1>
+<h1>Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection (EPAR)</h1>
 
 <p>
   <strong><a href="https://github.com/GluteusStrength">Jaeho Cho</a>, <a href="https://jinsikbang.github.io">Jinsik Bang</a>, Taehwan Kim</strong>
@@ -30,7 +30,7 @@ RGB images and 3D point clouds are divided into context and target regions. The 
 
 *Stage 1: Feature adaptation through multi-level embedding prediction.*
 
-### Stage 2: Refinement
+### Stage 2: Anomaly Map Refinement
 
 Pseudo anomalies are synthesized in RGB images and 3D point clouds using foreground-aware masks. With the adapted encoders and memory banks frozen, retrieved features are used to train the NSN against pseudo-anomaly masks, refining anomaly predictions through noise suppression.
 
