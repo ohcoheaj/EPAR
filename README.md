@@ -157,7 +157,7 @@ Checkpoints are saved under `checkpoints/stage1/` and `checkpoints/stage2/`. Inf
 
 ## License
 
-This project's original code is licensed under the [MIT License](LICENSE).
+This project is released under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
