@@ -3,7 +3,7 @@
 <h1>EPAR: Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection</h1>
 
 <p>
-  <strong><a href="https://github.com/ohcoheaj">Jaeho Cho</a>, <a href="https://jinsikbang.github.io">Jinsik Bang</a>, Taehwan Kim</strong>
+  <strong><a href="https://github.com/GluteusStrength">Jaeho Cho</a>, <a href="https://jinsikbang.github.io">Jinsik Bang</a>, Taehwan Kim</strong>
 </p>
 
 <p>Ulsan National Institute of Science and Technology (UNIST)</p>
