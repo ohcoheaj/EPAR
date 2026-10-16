@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.egg-info/
+build/
+dist/
+outputs/
+checkpoints/
+datasets/
+.venv/
