@@ -157,4 +157,4 @@ Checkpoints are saved under `checkpoints/stage1/` and `checkpoints/stage2/`. Inf
 
 ## Acknowledgements
 
-Our work builds on [I-JEPA (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.html), [Point-JEPA (WACV 2025)](https://openaccess.thecvf.com/content/WACV2025/html/Saito_Point-JEPA_A_Joint_Embedding_Predictive_Architecture_for_Self-Supervised_Learning_on_WACV_2025_paper.html), and [M3DM (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Multimodal_Industrial_Anomaly_Detection_via_Hybrid_Fusion_CVPR_2023_paper.html). We thank the authors for sharing their code and research.
+Our work builds on [I-JEPA (CVPR 2023)](https://github.com/facebookresearch/ijepa), [Point-JEPA (WACV 2025)](https://github.com/Ayumu-J-S/Point-JEPA), [M3DM (CVPR 2023)](https://github.com/wynoxos/M3DM), and [VIC-Regularization (VICReg, ICLR 2022)](https://github.com/facebookresearch/vicreg). We thank the authors for sharing their code and research.
