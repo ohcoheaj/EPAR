@@ -1,7 +1,22 @@
-# Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection (WACV 2027)
+<div align="center">
+
+<h1>EPAR: Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection</h1>
+
+<p>
+  <strong><a href="https://github.com/ohcoheaj">Jaeho Cho</a>, <a href="https://jinsikbang.github.io">Jinsik Bang</a>, Taehwan Kim</strong>
+</p>
+
+<p>Ulsan National Institute of Science and Technology (UNIST)</p>
+
+<p><em>WACV 2027</em></p>
+
+</div>
+
+---
 
 ## Overview
-A two-stage framework for RGB–3D anomaly detection through feature adaptation and refinement process (NSN).
+
+**EPAR** is a two-stage framework for RGB–3D industrial anomaly detection through embedding predictive adaptation and refinement. It adapts RGB and 3D features in the first stage and refines memory banks in the second stage for anomaly detection and localization.
 
 ## Installation
 
