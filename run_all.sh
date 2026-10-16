@@ -17,9 +17,9 @@ source activate mmad
 
 python -m pip uninstall -y knn_cuda
 cd "$EPAR_ROOT/vendor/knn_cuda"
-export TORCH_CUDA_ARCH_LIST="8.6"
+export TORCH_CUDA_ARCH_LIST="8.6" # Set your own version
 python -m pip install -e . --no-build-isolation
 cd "$EPAR_ROOT"
 
-DATASET_PATH="${DATASET_PATH:-/home/ijaehojo/AD-JEPA/datasets}"
+DATASET_PATH="${DATASET_PATH:-YOUR_DATASET_PATH}"
 python -u "$EPAR_ROOT/run_pipeline.py" --dataset_path "$DATASET_PATH"
