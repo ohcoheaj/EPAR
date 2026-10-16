@@ -69,6 +69,13 @@ Build the extensions on a GPU node. If your `mmad` environment already contains 
 
 ### Dataset
 
+Download the datasets from their official pages and extract them into the locations below:
+
+| Dataset | Download | Location in EPAR |
+| --- | --- | --- |
+| MVTec 3D-AD | [Official dataset and download page](https://www.mvtec.com/research-teaching/datasets/mvtec-3d-ad) | `datasets/mvtec/<category>/` |
+| Describable Textures Dataset (DTD) | [Official dataset page](https://www.robots.ox.ac.uk/~vgg/data/dtd/) · [Download releases](https://www.robots.ox.ac.uk/~vgg/data/dtd/releases.html) | `datasets/dtd/images/<texture_category>/` |
+
 Prepare MVTec 3D-AD with its `train` and `test` splits under each category directory. Evaluation also requires the training split for memory bank construction. Training also requires the `validation` split.
 
 Arrange the datasets under `EPAR/datasets/` as follows, matching the AD-JEPA dataset layout:
