@@ -28,7 +28,7 @@ RGB images and 3D point clouds are divided into context and target regions. The 
   </a>
 </p>
 
-*Stage 1: Feature adaptation through multi-level embedding prediction. Click the figure to view the original PDF.*
+*Stage 1: Feature adaptation through multi-level embedding prediction.*
 
 ### Stage 2: Refinement
 
@@ -40,7 +40,7 @@ Pseudo anomalies are synthesized in RGB images and 3D point clouds using foregro
   </a>
 </p>
 
-*Stage 2: Refinement through pseudo-anomaly generation and NSN training. Click the figure to view the original PDF.*
+*Stage 2: Refinement through pseudo-anomaly generation and NSN training.*
 
 ## Installation
 
