@@ -155,6 +155,11 @@ The only CLI argument for these stages is `--dataset_path`; configure the remain
 
 Checkpoints are saved under `checkpoints/stage1/` and `checkpoints/stage2/`. Inference metrics are written to `outputs/inference/<class>/run.log`; training uses console output only.
 
+## License
+
+This project's original code is licensed under the [MIT License](LICENSE).
+Third-party code retains its original licenses.
+
 ## Acknowledgements
 
 Our work builds on [I-JEPA (CVPR 2023)](https://github.com/facebookresearch/ijepa), [Point-JEPA (WACV 2025)](https://github.com/Ayumu-J-S/Point-JEPA), [M3DM (CVPR 2023)](https://github.com/wynoxos/M3DM), and [VIC-Regularization (VICReg, ICLR 2022)](https://github.com/facebookresearch/vicreg). We thank the authors for sharing their code and research.
