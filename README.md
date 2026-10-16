@@ -157,4 +157,4 @@ This project is released under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-Our work builds on [I-JEPA (CVPR 2023)](https://github.com/facebookresearch/ijepa), [Point-JEPA (WACV 2025)](https://github.com/Ayumu-J-S/Point-JEPA), [M3DM (CVPR 2023)](https://github.com/wynoxos/M3DM), and [VIC-Regularization (VICReg, ICLR 2022)](https://github.com/facebookresearch/vicreg). We thank the authors for sharing their code and research.
+Our work builds on [I-JEPA (CVPR 2023)](https://github.com/facebookresearch/ijepa), [Point-JEPA (WACV 2025)](https://github.com/Ayumu-J-S/Point-JEPA), [VIC-Regularization (VICReg, ICLR 2022)](https://github.com/facebookresearch/vicreg), and [M3DM (CVPR 2023)](https://github.com/wynoxos/M3DM). We thank the authors for sharing their code and research.
