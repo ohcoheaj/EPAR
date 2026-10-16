@@ -1,5 +1,6 @@
 # Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection (WACV 2027)
 
+## Overview
 A two-stage framework for RGB–3D anomaly detection through feature adaptation and refinement process (NSN).
 
 ## Installation
