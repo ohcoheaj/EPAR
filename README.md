@@ -16,7 +16,31 @@
 
 ## Overview
 
-**EPAR** is a two-stage framework for RGB–3D industrial anomaly detection through embedding predictive adaptation and refinement. It adapts RGB and 3D features in the first stage and refines memory banks in the second stage for anomaly detection and localization.
+**EPAR** is a two-stage framework for RGB–3D industrial anomaly detection through embedding predictive adaptation and refinement. The first stage adapts RGB and 3D features, and the second stage uses a Noise Suppression Network (NSN) to refine anomaly predictions based on memory-bank retrieval.
+
+### Stage 1: Feature Adaptation
+
+RGB images and 3D point clouds are divided into context and target regions. The context encoders learn to predict target embeddings at multiple feature levels, with exponential moving average (EMA) target encoders and variance–invariance–covariance (VIC) regularization.
+
+<p align="center">
+  <a href="figures/feature_adaptation.pdf">
+    <img src="figures/feature_adaptation.png" width="100%" alt="Stage 1: RGB and 3D input preparation, multi-level embedding prediction, and VIC regularization.">
+  </a>
+</p>
+
+*Stage 1: Feature adaptation through multi-level embedding prediction. Click the figure to view the original PDF.*
+
+### Stage 2: Refinement
+
+Pseudo anomalies are synthesized in RGB images and 3D point clouds using foreground-aware masks. With the adapted encoders and memory banks frozen, retrieved features are used to train the NSN against pseudo-anomaly masks, refining anomaly predictions through noise suppression.
+
+<p align="center">
+  <a href="figures/refinement_stage.pdf">
+    <img src="figures/refinement_stage.png" width="100%" alt="Stage 2: RGB and point-cloud pseudo-anomaly generation followed by Noise Suppression Network training with memory-bank retrieval.">
+  </a>
+</p>
+
+*Stage 2: Refinement through pseudo-anomaly generation and NSN training. Click the figure to view the original PDF.*
 
 ## Installation
 
