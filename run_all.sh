@@ -4,7 +4,7 @@
 set -e
 set -o pipefail
 
-EPAR_ROOT="${EPAR_ROOT:-/home/ijaehojo/EPAR}"
+EPAR_ROOT="${EPAR_ROOT:-YOUR_OWN_DIRECTORY}"
 cd "$EPAR_ROOT"
 EPAR_ROOT="$PWD"
 
