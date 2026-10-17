@@ -1,4 +1,3 @@
-# Adapted from AD-JEPA/utils/preprocess_mvtec3d.py.
 import os
 import numpy as np
 import tifffile as tiff
