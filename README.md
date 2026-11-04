@@ -20,8 +20,6 @@
 
 ### Stage 1: Feature Adaptation
 
-RGB images and 3D point clouds are divided into context and target regions. The context encoders learn to predict target embeddings at multiple feature levels, with exponential moving average (EMA) target encoders and variance–invariance–covariance (VIC) regularization.
-
 <p align="center">
   <a href="figures/feature_adaptation.pdf">
     <img src="figures/feature_adaptation.png" width="100%" alt="Stage 1: RGB and 3D input preparation, multi-level embedding prediction, and VIC regularization.">
@@ -31,8 +29,6 @@ RGB images and 3D point clouds are divided into context and target regions. The 
 *Stage 1: Feature adaptation through multi-level embedding prediction.*
 
 ### Stage 2: Anomaly Map Refinement
-
-Pseudo anomalies are synthesized in RGB images and 3D point clouds using foreground-aware masks. With the adapted encoders and memory banks frozen, retrieved features are used to train the NSN against pseudo-anomaly masks, refining anomaly predictions through noise suppression.
 
 <p align="center">
   <a href="figures/refinement_stage.pdf">
