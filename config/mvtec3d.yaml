@@ -1,8 +1,3 @@
-# Full VIC recipe from adjepa_mvtec_full_vic.sh.
-# Priority: common < stages < class_overrides.
-# cookie training was commented out in the source shell.
-# Stage-2 optimizers use bank_lr_*; lr_xyz there was unused in the original.
-# Paths are relative to EPAR. null DTD resolves to <MVTec root parent>/dtd.
 classes:
 - cookie
 - dowel
@@ -18,8 +13,8 @@ paths:
   output_dir: outputs
   stage1_dir: checkpoints/stage1
   stage2_dir: checkpoints/stage2
-  visual_encoder_ckpt_pth: ../AD-JEPA/checkpoints/vit_base_patch8_224_dino.pth
-  point_encoder_ckpt_pth: ../AD-JEPA/checkpoints/pointmae_pretrain.pth
+  visual_encoder_ckpt_pth: [YOUR_OWN_CHECKPOINT_PATH]
+  point_encoder_ckpt_pth: [YOUR_OWN_CHECKPOINT_PATH]
   dtd_dataset_path: null
 common:
   visual_encoder_size: base
