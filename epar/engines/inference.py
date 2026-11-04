@@ -1,8 +1,3 @@
-"""MVTec 3D-AD inference; adapted from final_inference_mvtec_vic.py."""
-# Multi-level JEPA
-# Reinitialize specific layers
-# Consider Validation set
-
 import os
 import numpy as np
 from torch import nn
