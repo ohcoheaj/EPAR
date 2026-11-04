@@ -16,7 +16,7 @@
 
 ## Overview
 
-**EPAR** is a two-stage framework for RGB–3D industrial anomaly detection through embedding predictive adaptation and refinement. The first stage adapts RGB and 3D features, and the second stage uses a Noise Suppression Network (NSN) to refine anomaly predictions based on memory-bank retrieval.
+**EPAR** is a two-stage framework for RGB–3D industrial anomaly detection through embedding predictive adaptation and refinement. The first stage adapts RGB and 3D features, and the second stage uses a Noise Suppression Network (NSN) to refine pixel-level segmentation maps based on discrepancy between normal and abnormal features.
 
 ### Stage 1: Feature Adaptation
 
