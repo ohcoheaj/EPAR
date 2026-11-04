@@ -21,7 +21,7 @@
 ### Stage 1: Feature Adaptation
 
 <p align="center">
-  <a href="figures/feature_adaptation.pdf">
+  <a href="figures/feature_adaptation.png">
     <img src="figures/feature_adaptation.png" width="100%" alt="Stage 1: RGB and 3D input preparation, multi-level embedding prediction, and VIC regularization.">
   </a>
 </p>
@@ -31,7 +31,7 @@
 ### Stage 2: Anomaly Map Refinement
 
 <p align="center">
-  <a href="figures/refinement_stage.pdf">
+  <a href="figures/refinement_stage.png">
     <img src="figures/refinement_stage.png" width="100%" alt="Stage 2: RGB and point-cloud pseudo-anomaly generation followed by Noise Suppression Network training with memory-bank retrieval.">
   </a>
 </p>
