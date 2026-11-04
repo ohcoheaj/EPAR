@@ -1,8 +1,3 @@
-"""MVTec 3D-AD feature adaptation; adapted from trainer_1st_mvtec_main_full_vic.py."""
-# Multi-level JEPA
-# Reinitialize specific layers
-# Consider Validation set
-
 import os
 import numpy as np
 from torch import nn
