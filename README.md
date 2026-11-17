@@ -155,6 +155,22 @@ Checkpoints are saved under `checkpoints/stage1/` and `checkpoints/stage2/`. Inf
 
 This project is released under the [MIT License](LICENSE).
 
+## Citation
+
+If you find our work useful, please cite:
+
+```bibtex
+@misc{cho2026embeddingpredictiveadaptationrefinement,
+      title={Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection},
+      author={Jaeho Cho and Jinsik Bang and Taehwan Kim},
+      year={2026},
+      eprint={2611.09521},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.09521},
+}
+```
+
 ## Acknowledgements
 
 Our work builds on [I-JEPA (CVPR 2023)](https://github.com/facebookresearch/ijepa), [Point-JEPA (WACV 2025)](https://github.com/Ayumu-J-S/Point-JEPA), [VIC-Regularization (VICReg, ICLR 2022)](https://github.com/facebookresearch/vicreg), and [M3DM (CVPR 2023)](https://github.com/wynoxos/M3DM). We thank the authors for sharing their code and research.
