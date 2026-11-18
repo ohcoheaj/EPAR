@@ -49,7 +49,7 @@ python -m pip install setuptools==58.2.0 wheel==0.45.1
 python -m pip install -r requirements.txt
 ```
 
-Install KNN_CUDA by following the instructions on the [KNN_CUDA page](https://github.com/altaykacan/KNN_CUDA_reborn).
+Install KNN CUDA by following the instructions on the [KNN CUDA page](https://github.com/altaykacan/KNN_CUDA_reborn).
 
 ```bash
 export CUDA_HOME=/usr/local/cuda-11.7
