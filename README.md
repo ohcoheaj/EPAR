@@ -47,7 +47,11 @@ conda create -n mmad python=3.10 pip -y
 conda activate mmad
 python -m pip install setuptools==58.2.0 wheel==0.45.1
 python -m pip install -r requirements.txt
+```
 
+Install KNN_CUDA by following the instructions on the [KNN_CUDA page](https://github.com/altaykacan/KNN_CUDA_reborn).
+
+```bash
 export CUDA_HOME=/usr/local/cuda-11.7
 export PATH="$CUDA_HOME/bin:$PATH"
 export LD_LIBRARY_PATH="$CUDA_HOME/lib64:${LD_LIBRARY_PATH:-}"
@@ -56,7 +60,6 @@ export TORCH_CUDA_ARCH_LIST="8.6"
 
 python -m pip install --no-build-isolation ./vendor/pointnet2_ops
 FORCE_CUDA=1 python -m pip install --no-build-isolation ./vendor/pytorch3d
-python -m pip install --no-build-isolation ./vendor/knn_cuda
 ```
 
 Build the extensions on a GPU node. If your `mmad` environment already contains these dependencies, activate it directly.
