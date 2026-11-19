@@ -164,14 +164,11 @@ This project is released under the [MIT License](LICENSE).
 If you find our work useful, please cite:
 
 ```bibtex
-@misc{cho2026embeddingpredictiveadaptationrefinement,
-      title={Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection},
-      author={Jaeho Cho and Jinsik Bang and Taehwan Kim},
-      year={2026},
-      eprint={2611.09521},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2611.09521},
+@article{cho2026embedding,
+  title={Embedding Predictive Adaptation and Refinement for Multi-Modal Industrial Anomaly Detection},
+  author={Cho, Jaeho and Bang, Jinsik and Kim, Taehwan},
+  journal={arXiv preprint arXiv:2611.09521},
+  year={2026}
 }
 ```
 
