@@ -49,7 +49,7 @@ python -m pip install setuptools==58.2.0 wheel==0.45.1
 python -m pip install -r requirements.txt
 ```
 
-Install KNN CUDA by following the instructions on the [KNN CUDA page](https://github.com/altaykacan/KNN_CUDA_reborn).
+Download KNN_CUDA separately from the [KNN_CUDA page](https://github.com/altaykacan/KNN_CUDA_reborn) and place the repository contents in `vendor/knn_cuda/` under the EPAR root. Ensure that `vendor/knn_cuda/setup.py` and `vendor/knn_cuda/knn_cuda/` exist (without an extra nested repository directory). After configuring CUDA below, install it with the local pip command shown below.
 
 ```bash
 export CUDA_HOME=/usr/local/cuda-11.7
@@ -60,6 +60,7 @@ export TORCH_CUDA_ARCH_LIST="8.6"
 
 python -m pip install --no-build-isolation ./vendor/pointnet2_ops
 FORCE_CUDA=1 python -m pip install --no-build-isolation ./vendor/pytorch3d
+python -m pip install --no-build-isolation ./vendor/knn_cuda
 ```
 
 Build the extensions on a GPU node. If your `mmad` environment already contains these dependencies, activate it directly.
